@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "name": "Plugin Repository",
+  "description": "",
+  "plugins": {
+    "akai.status-spoofer": {
+      "name": "Status Spoofer",
+      "description": "Show chosen people a different status and custom status than everyone else. Sign in with Discord and sync rules through the Status Spoofer backend.",
+      "author": "akai",
+      "icon": "StatusIdle",
+      "channels": {
+        "latest": "2.0.0"
+      },
+      "versions": {
+        "2.0.0": {
+          "url": "https://m7mdxzxa.github.io/valenced-plugins/akai.status-spoofer@2.0.0.zip",
+          "sha256": "ca3bdfa5caf01726186407d03dc817fec32d34be2dda5bd82bf476bd5dd4dc07",
+          "size": 7458,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
